@@ -11,7 +11,7 @@ This repository is a warehouse for building your knowledge as a developer.
 <br>
 
 ## 📌 Algorithm
-- [거품 정렬(Bubble Sort)]()
+- [거품 정렬(Bubble Sort)](https://github.com/laagom/Tech-Knowledge/blob/main/Algorithm/%EA%B1%B0%ED%92%88%20%EC%A0%95%EB%A0%AC(Bubble%20Sort).md)
 
 <br>
 
