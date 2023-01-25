@@ -5,16 +5,17 @@ This repository is a warehouse for building your knowledge as a developer.
 <br>
 
 ## 🧑🏻‍💻 개발자 전공 지식 & 📚 기술 면접 
-
-<br>
-
-### <strong>Commit convention rule</strong> : 날짜-[상태]-[주제]-내용
+<strong>Commit convention rule</strong> : 날짜-[상태]-[주제]-내용<br>
 <span style='background-color:#f6f8fa; color:black;'>ex) 23-01-20 [ADD] [Tech Knowledge README] 개발자를 위한 지식 창고의 설명과 개요</span>
 
 <br>
 
-## 🖥 Computer Science
----
+## 📌 Algorithm
+- [거품 정렬(Bubble Sort)]()
+
+<br>
+
+## 📌  Computer Science
 ### Computer Architechture
 - 컴퓨터 구조 기초
 - 컴퓨터의 구성
