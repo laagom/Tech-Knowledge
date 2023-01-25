@@ -17,8 +17,7 @@ This repository is a warehouse for building your knowledge as a developer.
 
 ## 📌  Computer Science
 ### Computer Architechture
-- 컴퓨터 구조 기초
-- 컴퓨터의 구성
+- [컴퓨터란?](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%9E%80%3F.md)
 - 중앙처리장치(CPU) 작동 원리
 - 캐시 메모리
 - 고정 소수점 & 부동 소수점
