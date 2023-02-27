@@ -27,4 +27,4 @@ This repository is a warehouse for building your knowledge as a developer.
 
 ### Data Structure
 - [해시(Hash)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C(Hash).md)
-- [해시 충돌(Hash Collision)]()
+- [해시 충돌(Hash Collision)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C%20%EC%B6%A9%EB%8F%8C(Hash%20Collision).md)
