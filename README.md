@@ -6,7 +6,7 @@ This repository is a warehouse for building your knowledge as a developer.
 
 ## 🧑🏻‍💻 개발자 전공 지식 & 📚 기술 면접 
 <strong>Commit convention rule</strong> : 날짜-[상태]-[주제]-내용<br>
-<span style='background-color:#f6f8fa; color:black;'>ex) 23-01-20 [ADD] [Tech Knowledge README] 개발자를 위한 지식 창고의 설명과 개요</span>
+<span style='background-color:#f6f8fa; color:black;'>ex) [ADD] [Tech Knowledge README] 23-01-20 <br>- 개발자를 위한 지식 창고의 설명과 개요</span>
 
 <br>
 
@@ -24,3 +24,7 @@ This repository is a warehouse for building your knowledge as a developer.
 - 고정 소수점 & 부동 소수점
 - 패리트 비트 & 해밍 코드
 - ARM 프로세서
+
+### Data Structure
+- [해시(Hash)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C(Hash).md)
+- [해시 충돌(Hash Collision)]()
