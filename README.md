@@ -18,7 +18,7 @@ This repository is a warehouse for building your knowledge as a developer.
 
 ## 📌  Computer Science
 ### Computer Architechture
-- [컴퓨터란?](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Computer%20Architecture/%EC%BB%B4%ED%93%A8%ED%84%B0%EB%9E%80%3F.md)
+- [컴퓨터란?](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Computer%20Architecture/01.%EC%BB%B4%ED%93%A8%ED%84%B0%EB%9E%80%3F.md)
 - [중앙처리장치(CPU) 작동 원리](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Computer%20Architecture/02.%EC%A4%91%EC%95%99%EC%B2%98%EB%A6%AC%EC%9E%A5%EC%B9%98(CPU)%20%EC%9E%91%EB%8F%99%20%EC%9B%90%EB%A6%AC.md)
 - 캐시 메모리
 - 고정 소수점 & 부동 소수점
