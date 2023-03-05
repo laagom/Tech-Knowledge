@@ -2,7 +2,7 @@
 이번에는 정렬 알고리즘에서 가장 유명한 알고리즘인 퀵 정렬(Quick Sort)에 대해 알아보려고 한다.
 
 ### <span style='color:hsl(350, 100%, 66%);'>개념</span>
-병합 정렬과 마찬가지로 퀵정렬도 [`분할 정복기법`](https://velog.io/@arittung/Divide-and-Conquer)`과 `재귀 알고리즘`을 이용한 정렬 알고리즘이다.
+병합 정렬과 마찬가지로 퀵정렬도 [`분할 정복기법`](https://velog.io/@arittung/Divide-and-Conquer)과 `재귀 알고리즘`을 이용한 정렬 알고리즘이다.
 
     *[분할 정복(divide and conquer) 방법]
     문제를 작은 2개의 문제로 분리하고 각각 해결한 후, 결과를 모아서 원래의 문제를 해결하는 전략이다.
