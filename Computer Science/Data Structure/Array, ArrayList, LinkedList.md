@@ -5,7 +5,7 @@
 
 ## Array VS ArrayList VS LinkedList
 일단 결론적으로 차이점만 설명하자면 아래와 같다.
-1. Array : index를 통해 빠륵게 값을 찾는 것이 가능하다.
+1. Array : index를 통해 빠르게 값을 찾는 것이 가능하다.
 2. ArrayList : 데이터를 찾는데 빠르지만 삽입 및 삭제가 느리다.
 3. LinkedList : 데이터의 삽입 삭제가 빠르다.
 
