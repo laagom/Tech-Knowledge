@@ -38,4 +38,4 @@ This repository is a warehouse for building your knowledge as a developer.
 
 ## 📌 Language
 ### Python
-- [Linked List(연결 리스트) in Python]()
+- [Linked List(연결 리스트) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(Linked%20List)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
