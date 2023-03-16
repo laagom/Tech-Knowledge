@@ -29,6 +29,7 @@ This repository is a warehouse for building your knowledge as a developer.
 - ARM 프로세서
 
 ### Data Structure
+- [스택(Stack)과 큐(Queue)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%EC%8A%A4%ED%83%9D(STACK)%2C%20%ED%81%90(QUEUE).md)
 - [배열(Array)과 리스트(List)의 차이점](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%EB%B0%B0%EC%97%B4(Array).md)
 - [Array VS ArrayList VS LinkedList](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/Array%2C%20ArrayList%2C%20LinkedList.md)
 - [해시(Hash)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C(Hash).md)
@@ -39,3 +40,4 @@ This repository is a warehouse for building your knowledge as a developer.
 ## 📌 Language
 ### Python
 - [Linked List(연결 리스트) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(Linked%20List)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
+- [Stack(스택), Queue(큐) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%8A%A4%ED%83%9D(Stack)%2C%20%ED%81%90(Queue)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
