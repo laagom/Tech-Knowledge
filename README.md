@@ -46,3 +46,6 @@ This repository is a warehouse for building your knowledge as a developer.
 ### Python
 - [Linked List(연결 리스트) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(Linked%20List)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
 - [Stack(스택), Queue(큐) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%8A%A4%ED%83%9D(Stack)%2C%20%ED%81%90(Queue)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
+
+### Javascript
+- [콜스택(CallStack), 태스크 큐(Task Queue), 이벤트 루프(Event Loop)](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Javascript/%EC%BD%9C%EC%8A%A4%ED%83%9D(CallStack)%2C%20%ED%83%9C%EC%8A%A4%ED%81%AC%20%ED%81%90(Task%20Queue)%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A3%A8%ED%94%84(Event%20Loop).md)
