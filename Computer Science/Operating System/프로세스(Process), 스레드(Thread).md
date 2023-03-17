@@ -120,8 +120,8 @@
 <br>
 
 ## 참고
-https://brunch.co.kr/@kd4/3
-https://magi82.github.io/process-thread/
-https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html
-https://lalwr.blogspot.com/2016/02/process-thread.html
-http://you9010.tistory.com/136
+[https://brunch.co.kr/@kd4/3](https://brunch.co.kr/@kd4/3)<br>
+[https://magi82.github.io/process-thread/](https://magi82.github.io/process-thread/)<br>
+[https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html](https://gmlwjd9405.github.io/2018/09/14/process-vs-thread.html)<br>
+[https://lalwr.blogspot.com/2016/02/process-thread.html](https://lalwr.blogspot.com/2016/02/process-thread.html)<br>
+[http://you9010.tistory.com/136](http://you9010.tistory.com/136)
