@@ -32,6 +32,8 @@ This repository is a warehouse for building your knowledge as a developer.
 - [스택(Stack)과 큐(Queue)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%EC%8A%A4%ED%83%9D(STACK)%2C%20%ED%81%90(QUEUE).md)
 - [배열(Array)과 리스트(List)의 차이점](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%EB%B0%B0%EC%97%B4(Array).md)
 - [Array VS ArrayList VS LinkedList](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/Array%2C%20ArrayList%2C%20LinkedList.md)
+- [트리(Tree)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%8A%B8%EB%A6%AC(Tree).md)
+- [이진탐색트리(Binary Search Tree)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC(Binary%20Search%20Tree).md)
 - [해시(Hash)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C(Hash).md)
 - [해시 충돌(Hash Collision)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C%20%EC%B6%A9%EB%8F%8C(Hash%20Collision).md)
 
@@ -46,6 +48,7 @@ This repository is a warehouse for building your knowledge as a developer.
 ### Python
 - [Linked List(연결 리스트) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8(Linked%20List)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
 - [Stack(스택), Queue(큐) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%8A%A4%ED%83%9D(Stack)%2C%20%ED%81%90(Queue)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
+- [이진탐색트리(Binary Search Tree)](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC(Binary%20Search%20Tree)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
 
 ### Javascript
 - [콜스택(CallStack), 태스크 큐(Task Queue), 이벤트 루프(Event Loop)](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Javascript/%EC%BD%9C%EC%8A%A4%ED%83%9D(CallStack)%2C%20%ED%83%9C%EC%8A%A4%ED%81%AC%20%ED%81%90(Task%20Queue)%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A3%A8%ED%94%84(Event%20Loop).md)
