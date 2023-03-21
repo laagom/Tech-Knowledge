@@ -492,3 +492,255 @@ for del_num in delete_nums:
 - 아래와 같이 구성되어 있을 경우, 최악의 경우는 링크드 리스트와 동일한 성능을 보여준다.(O(N))
 
 ![Alt text](../../resources/worstcase_bst-001.png)
+
+<br>
+
+## 추가 학습
+위의 코드에서는 Python함수안에 모든코드가 작성되어 있는 방식이었다. 이렇게 작성하면 순차적으로 분석하기는 쉽지만 작성한 함수가 하나의 함수 기능만을 하지 않기 때문에 던던 메소드를 이용해서 좀 더 함수의 기능은 단일화 및 분할 해서 작성해 보려고 한다.
+
+위의 코드 학습이 이루어졌다만 아래 코드 분석은 손쉬울 것이다.
+```python
+# 노드 만들기
+class Node:
+    def __init__(self, data : int):
+        self.data = data
+        self.left = None
+        self.right = None
+
+# 이진트리 만들기
+class BinarySearchTree:
+    # 초기값 설정
+    def __init__(self) -> None:
+        self.head = None
+
+        self.preorder_list = []
+        self.inorder_list = []
+        self.postorder_list = []
+
+    # 추가!!
+    def add(self, data:int):
+        if self.head is None:
+            self.head = Node(data)
+        else:
+            self.__add_node(self.head, data)
+
+    # head가 있는 경우
+    def __add_node(self, cur, data):
+        # print('부모', cur.data, '자식', data)
+
+        # head 값이 더 크면 왼쪽으로
+        if cur.data > data:
+            # print(f'move left {data}')
+            if cur.left is not None:
+                self.__add_node(cur.left, data)
+            else:
+                cur.left = Node(data)
+        # head 값이 더 작으면 오른쪽으로
+        else:
+            # print(f'move right {data}')
+            if cur.right is not None:
+                self.__add_node(cur.right, data)
+            else:
+                cur.right = Node(data)
+
+    # 찾기!!
+    def search(self, data):
+        if self.head is None:
+            return False
+        else:
+            return self.__search_node(self.head, data)
+        
+    def __search_node(self, cur, data):
+        # print(f'head = {cur.data}', f'data : {data}')
+        # head와 찾으려는 값이 동일한 경우
+        if cur.data == data:
+            return True
+        else:
+            # 기준보다 작은경우
+            if cur.data > data:
+                # 더 작은 왼쪽의 tree가 존재하면 왼쪽으로 더 탐색
+                if cur.left is not None:
+                    return self.__search_node(cur.left, data)
+                # 더 작은 왼쪽의 tree가 존재하지 않으면 존재하지 않는다.
+                else:
+                    return False
+            
+            # 기준보다 큰경우
+            else:
+                # 더 큰 오른쪽의 tree가 존재하면 오른쪽으로 더 탐색
+                if cur.right is not None:
+                    return self.__search_node(cur.right, data)
+                # 더 큰 오른쪽의 tree가 존재하지 않으면 존재하지 않는다.
+                else:
+                    return False
+                
+    # 순회 Traverse
+    # 전위순회 preorder 1. 루트 방문, 2. 왼쪽 서브트리, 3. 오른쪽 서브트리
+    # 완성되어 있는 트리를 다른 서버에 리스트 형태로 보내서 그 서버에서 다시 트리를 구성할 때 사용
+    def preorder_traverse(self) -> list:
+        self.preorder_list = []
+        if self.head is not None:
+            self.__preorder(self.head)
+
+        return self.preorder_list
+    
+    def __preorder(self, cur):
+        self.preorder_list.append(cur.data)
+        if cur.left is not None:
+            self.__preorder(cur.left)
+        if cur.right is not None:
+            self.__preorder(cur.right)
+
+    # 정위순회 inorder 1. 왼쪽, 2. 루트, 3. 오른쪽
+    # 오름차순 정렬할 때 n의 시간복잡도로 정렬가능
+    def inorder_traverse(self) -> list:
+        self.inorder_list = []
+        if self.head is not None:
+            self.__inorder(self.head)
+        
+        return self.inorder_list
+
+    def __inorder(self, cur):
+        # 왼쪽 우선
+        if cur.left is not None:
+            self.__inorder(cur.left)
+        
+        # 기준
+        self.inorder_list.append(cur.data)
+
+        # 그 다음 오른쪽
+        if cur.right is not None:
+            self.__inorder(cur.right)
+
+    # 후위순회 postorder 1. 왼쪽, 2. 오른쪽, 3. 루트
+    def postorder_traverse(self):
+        self.postorder_list = []
+        if self.head is not None:
+            self.__postorder(self.head)
+
+        return self.postorder_list
+    
+    def __postorder(self, cur):
+        if cur.left is not None:
+            self.__postorder(cur.left)
+        
+        if cur.right is not None:
+            self.__postorder(cur.right)
+
+        self.postorder_list.append(cur.data)
+
+    # 제거!!
+    def remove(self, data):
+        # 삭제하려는 값이 루트인 경우
+        if self.head == data:
+            # 1. 자식이 없을 때
+            if self.head.left == None and self.head.right == None:
+                self.head.data = None
+            # 2. 자식이 하나 있을 때
+            elif self.head.left != None and self.head.right == None:
+                self.head = self.head.left
+            elif self.head.left == None and self.head.right != None:
+                self.head = self.head.right
+            # 3. 자식이 두개 있으때, 오른쪽 Tree의 가장 작은 값을 루트로 변경해 준다.
+            else:
+                self.head.data = self.__remove_head(self.head.right)
+        # 루트가 아닌경우
+        else:
+            # 루트보다 작은경우
+            if self.head.data > data:
+                self.__remove(self.head, self.head.left, data)
+            # 루트보다 큰경우
+            else:
+                self.__remove(self.head, self.head.right, data)
+
+    def __remove(self, parent, cur, data):
+        # 삭제하려는 값이 없는 경우
+        if cur is None:
+            print(f'No data {data}')
+        if cur.data == data:
+            # 자식이 없는 경우
+            if cur.left == None and cur.right == None:
+                if parent.left == cur:
+                    parent.left = None
+                else:
+                    parent.right = None
+            
+            # 자식이 하나 있는 경우
+            elif cur.left == None and cur.right != None:
+                if parent.left == cur:
+                    parent.left = cur.right
+                else:
+                    parent.right = cur.right
+
+            elif cur.left != None and cur.right == None:
+                if parent.left == cur:
+                    parent.left = cur.left
+                else:
+                    parent.right = cur.left
+
+            # 자식이 두개 있는 경우
+            if cur.left != None and cur.right != None:
+                cur.data = self.__remove_head(cur.right).data
+                self.__removeitem(cur, cur.right, cur.data)
+        else:
+            if cur.data > data:
+                self.__remove(cur, cur.left, data)
+            else:
+                self.__remove(cur, cur.right, data)
+
+    # 자식이 둘인 경우 오른쪽 자식의 가장 왼쪽 자식을 옮기고 그 자식은 삭제
+    def __removeitem(self, parent, cur, data):
+        if cur.data == data:
+            if parent.left == cur:
+                parent.left = None
+            else:
+                parent.right = None
+        else:
+            if cur.data > data:
+                self.__removeitem(cur, cur.left, data)
+            else:
+                self.__removeitem(cur, cur.right, data)
+            
+
+    def __remove_head(self, cur):
+        # 가장 작은 값을 찾기 위해 왼쪽을 확인 후 
+        if cur.left == None:
+            # 왼쪽 tree가 없으면 전달받은 head의 오른쪽이 가장 작은 값
+            return cur
+        # 왼쪽이 존재하면 계속해서 탐색    
+        else:
+            return self.__remove_head(cur.left)
+
+list = [50, 30, 24, 5, 28, 45, 98, 52, 60]
+binary = BinarySearchTree()
+for num in list:
+    binary.add(num)
+
+print(binary.search(60))
+print(binary.search(1))
+
+# 전위
+print(binary.preorder_traverse())
+# 중위
+print(binary.inorder_traverse())
+# 후위
+print(binary.postorder_traverse())
+
+binary.remove(24)
+
+# 전위
+print(binary.preorder_traverse())
+# 중위
+print(binary.inorder_traverse())
+# 후위
+print(binary.postorder_traverse())
+
+```
+
+분할 및 단일화 하는 코드를 작성하면서 이진 탐색 트리를 탐색하는 방법을 찾아 더 학습해 보았다. 탐색하는 방법은 전위, 중위, 후위 로 나뉘어 사용하는 용도가 다른데 다음과 같다.
+
+1. 전위 : 완성된 트리를 복사하여 트리를 다시 구현할 때 사용된다. 트리는 생성할 때 자식 노드보다 부모 노드가 먼저 생성되어야 하기 때문이다.
+
+2. 오름차순 정렬할 때 n의 시간복잡도로 정렬가능
+
+3. 트리를 삭제하는데 주로 사용된다고 한다. 부모노드를 삭제하기 전에 자식 노드를 삭제하는 순으로 노드를 삭제해야하기 때문이다.
