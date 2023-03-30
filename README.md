@@ -55,3 +55,8 @@ This repository is a warehouse for building your knowledge as a developer.
 - [heapq 모듈로 Heap(힙) 자료구조 사용하기 in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/heapq%EB%A1%9C%20%ED%9E%99%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
 ### Javascript
 - [콜스택(CallStack), 태스크 큐(Task Queue), 이벤트 루프(Event Loop)](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Javascript/%EC%BD%9C%EC%8A%A4%ED%83%9D(CallStack)%2C%20%ED%83%9C%EC%8A%A4%ED%81%AC%20%ED%81%90(Task%20Queue)%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A3%A8%ED%94%84(Event%20Loop).md)
+
+<br>
+
+## 📌 Web
+- [쿠키(Cookie), 세션(Session), 웹 스토리지(Web Storage)(로컬, 세션 스토리지)](https://github.com/laagom/Tech-Knowledge/blob/main/Web/%EC%BF%A0%ED%82%A4%2C%20%EC%84%B8%EC%85%98%2C%20%EC%9B%B9%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)
