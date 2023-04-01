@@ -44,14 +44,75 @@ __두번째 자리수(십)__
 ![](https://velog.velcdn.com/images/cjyooong/post/2fb047af-c958-42f2-a4c0-d901e2c25b41/image.png)
 
 __세번째 자리수(백)__
-![](https://velog.velcdn.com/images/cjyooong/post/8f399c09-6309-4ddd-9177-b1c05e9d8bea/image.png)
+![](https://velog.velcdn.com/images/cjyooong/post/77f462bb-3ab5-4992-a64b-1518a59f53da/image.png)
+
 
 __네번째 자리수(천)__
-![](https://velog.velcdn.com/images/cjyooong/post/80487609-10ba-43aa-ab29-d811b339fea9/image.png)
+![](https://velog.velcdn.com/images/cjyooong/post/26fafaea-0211-48f0-8133-5e3812881647/image.png)
+
 
 ---
-![](https://velog.velcdn.com/images/cjyooong/post/1b3bc569-212f-4a08-ba8e-b4f9c5acdd90/image.png)
+![](https://velog.velcdn.com/images/cjyooong/post/6a4b71f8-3c66-4e4a-86da-1a6cf27f8b73/image.png)
+
 
 이로써 오름차순으로 정렬이 완료되었다. 하지만 우리는 이 과정이 간단해 보이지만 익숙하지 않을 것이다. 그 이유는 수의 대소를 비교할 때 큰 자릿수부터 비교하는데 익숙하기 때문이다.
 
 이 `기수 정렬`의 단점은 가장 큰 영향력을 가진 큰 자릿수를 마지막에 비교하다 보니 마지막까지 결과를 알 수 없는 것이다.
+
+
+<br>
+
+## 🔖 코드 구현
+```python
+# 기수 정렬
+def radix_sort(items: list):
+
+    # 끝자리부터 비교
+    pointer = -1
+
+    # 최대값의 길이
+    max_len = max([len(str(item)) for item in items])
+
+    for i in range(max_len):
+        # 분배를 위한 버킷 생성
+        buckit = [[] for __ in range(10)]
+
+        for item in items:
+            radix = 0
+            try:
+                # item에 자리수 값 선정
+                radix = int(str(item)[pointer])
+            except IndexError:
+                pass
+
+            # 자리수 값을 생성한 버킷에 분배
+            buckit[radix].append(item)
+        
+        items = []
+        for x in range(10):
+            for y in range(len(buckit[x])):
+                items.append(buckit[x][y])
+        pointer -= 1
+        print(f'{i + 1} 회차 정렬 : {items}')
+    return items
+
+radix = ['0508', '0515', '0915', '1111', '0101', '0301', '0815']
+print(radix)
+print(radix_sort(radix))
+
+'''
+['0508', '0515', '0915', '1111', '0101', '0301', '0815']
+1 회차 정렬 : ['1111', '0101', '0301', '0515', '0915', '0815', '0508']
+2 회차 정렬 : ['0101', '0301', '0508', '1111', '0515', '0915', '0815']
+3 회차 정렬 : ['0101', '1111', '0301', '0508', '0515', '0815', '0915']
+4 회차 정렬 : ['0101', '0301', '0508', '0515', '0815', '0915', '1111']
+['0101', '0301', '0508', '0515', '0815', '0915', '1111']
+'''
+```
+
+## 🔖 참고
+[https://www.youtube.com/watch?v=onEazVf_NyI](https://www.youtube.com/watch?v=onEazVf_NyI)
+
+[https://nomad-programmer.tistory.com/390](https://nomad-programmer.tistory.com/390)
+
+[https://velog.io/@april_5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%88%98-%EC%A0%95%EB%A0%ACRadix-Sort](https://velog.io/@april_5/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B8%B0%EC%88%98-%EC%A0%95%EB%A0%ACRadix-Sort)
