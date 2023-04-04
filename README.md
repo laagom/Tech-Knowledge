@@ -63,3 +63,4 @@ This repository is a warehouse for building your knowledge as a developer.
 - [브라우저 동작 원리](https://github.com/laagom/Tech-Knowledge/blob/main/Web/%EB%B8%8C%EB%9D%BC%EC%9A%B0%EC%A0%80%20%EB%8F%99%EC%9E%91%20%EC%9B%90%EB%A6%AC.md)
 - [쿠키(Cookie), 세션(Session), 웹 스토리지(Web Storage)(로컬, 세션 스토리지)](https://github.com/laagom/Tech-Knowledge/blob/main/Web/%EC%BF%A0%ED%82%A4%2C%20%EC%84%B8%EC%85%98%2C%20%EC%9B%B9%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)
 - [웹 스토리지](https://github.com/laagom/Tech-Knowledge/blob/main/Web/%EC%9B%B9%20%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.md)
+- [웹 서버(Web Server)와 WAS](https://github.com/laagom/Tech-Knowledge/blob/main/Web/%EC%9B%B9%20%EC%84%9C%EB%B2%84(Web%20Server)%EC%99%80%20WAS.md)
