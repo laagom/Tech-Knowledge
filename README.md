@@ -18,6 +18,7 @@ This repository is a warehouse for building your knowledge as a developer.
 - [병합 정렬(Merge Sort)](https://github.com/laagom/Tech-Knowledge/blob/main/Algorithm/%EB%B3%91%ED%95%A9%20%EC%A0%95%EB%A0%AC(Merge%20Sort).md)
 - [힙 정렬(Heap Sort)](https://github.com/laagom/Tech-Knowledge/blob/main/Algorithm/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md)
 - [기수 정렬(Radix Sort)](https://github.com/laagom/Tech-Knowledge/blob/main/Algorithm/%EA%B8%B0%EC%88%98%20%EC%A0%95%EB%A0%AC(Radix%20Sort).md)
+- [계수 정렬(Counting Sort)](https://github.com/laagom/Tech-Knowledge/blob/main/Algorithm/%EA%B3%84%EC%88%98%20%EC%A0%95%EB%A0%AC(Counting%20Sort).md)
 
 <br>
 
