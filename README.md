@@ -41,6 +41,12 @@ This repository is a warehouse for building your knowledge as a developer.
 - [해시(Hash)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C(Hash).md)
 - [해시 충돌(Hash Collision)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Data%20Structure/%ED%95%B4%EC%8B%9C%20%EC%B6%A9%EB%8F%8C(Hash%20Collision).md)
 
+<br>
+
+## 📌 Data Science
+- [자카드 유사도 개념 이해하기](https://github.com/laagom/Tech-Knowledge/blob/main/Data%20Science/%EC%9E%90%EC%B9%B4%EB%93%9C%EC%9C%A0%EC%82%AC%EB%8F%84%20%EA%B0%9C%EB%85%90%20%EC%9D%B4%ED%95%B4.md)
+
+<br>
 
 ### Operating System
 - [운영체제(OS)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Operating%20System/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C(OS).md)
@@ -67,3 +73,4 @@ This repository is a warehouse for building your knowledge as a developer.
 - [웹 서버(Web Server)와 WAS](https://github.com/laagom/Tech-Knowledge/blob/main/Web/%EC%9B%B9%20%EC%84%9C%EB%B2%84(Web%20Server)%EC%99%80%20WAS.md)
 - [Nginx](https://github.com/laagom/Tech-Knowledge/blob/main/Web/Nginx.md)
 - [웹 서버 Apache보다 Nginx를 사용하는 이유](https://github.com/laagom/Tech-Knowledge/blob/main/Web/%EC%9B%B9%20%EC%84%9C%EB%B2%84%20Apache%EB%B3%B4%EB%8B%A4%20Nginx%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%8A%94%20%20%EC%9D%B4%EC%9C%A0.md)
+
