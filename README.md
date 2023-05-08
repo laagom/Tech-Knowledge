@@ -43,16 +43,19 @@ This repository is a warehouse for building your knowledge as a developer.
 
 <br>
 
-## 📌 Data Science
-- [자카드 유사도 개념 이해하기](https://github.com/laagom/Tech-Knowledge/blob/main/Data%20Science/%EC%9E%90%EC%B9%B4%EB%93%9C%EC%9C%A0%EC%82%AC%EB%8F%84%20%EA%B0%9C%EB%85%90%20%EC%9D%B4%ED%95%B4.md)
-
-<br>
-
 ### Operating System
 - [운영체제(OS)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Operating%20System/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C(OS).md)
 - [프로세스(Process), 스레드(Thread)](https://github.com/laagom/Tech-Knowledge/blob/main/Computer%20Science/Operating%20System/%ED%94%84%EB%A1%9C%EC%84%B8%EC%8A%A4(Process)%2C%20%EC%8A%A4%EB%A0%88%EB%93%9C(Thread).md)
 
 <br>
+
+## 📌 Data Science
+- [자카드 유사도 개념 이해하기](https://github.com/laagom/Tech-Knowledge/blob/main/Data%20Science/%EC%9E%90%EC%B9%B4%EB%93%9C%EC%9C%A0%EC%82%AC%EB%8F%84%20%EA%B0%9C%EB%85%90%20%EC%9D%B4%ED%95%B4.md)
+
+<br>
+
+### 머신러닝 & 딥러닝
+- [01. 딥러닝이란](https://github.com/laagom/Tech-Knowledge/blob/main/Data%20Science/Deep%20Learning/%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80%3F.md)
 
 ## 📌 Language
 ### Python
@@ -61,6 +64,12 @@ This repository is a warehouse for building your knowledge as a developer.
 - [Binary Search Tree(이진탐색트리) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89%20%ED%8A%B8%EB%A6%AC(Binary%20Search%20Tree)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
 - [Heap(힙) in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/%ED%9E%99(Heap)%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
 - [heapq 모듈로 Heap(힙) 자료구조 사용하기 in Python](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Python/heapq%EB%A1%9C%20%ED%9E%99%20%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%20%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0%20in%20%ED%8C%8C%EC%9D%B4%EC%8D%AC.md)
+
+
+### Django
+- [Django-seed를 이용한 테스트 데이터 만들기](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Django/django-seed%EB%A5%BC%20%EC%9D%B4%EC%9A%A9%ED%95%9C%20%ED%85%8C%EC%8A%A4%ED%8A%B8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EB%A7%8C%EB%93%A4%EA%B8%B0.md)
+
+
 ### Javascript
 - [콜스택(CallStack), 태스크 큐(Task Queue), 이벤트 루프(Event Loop)](https://github.com/laagom/Tech-Knowledge/blob/main/Language/Javascript/%EC%BD%9C%EC%8A%A4%ED%83%9D(CallStack)%2C%20%ED%83%9C%EC%8A%A4%ED%81%AC%20%ED%81%90(Task%20Queue)%2C%20%EC%9D%B4%EB%B2%A4%ED%8A%B8%20%EB%A3%A8%ED%94%84(Event%20Loop).md)
 
